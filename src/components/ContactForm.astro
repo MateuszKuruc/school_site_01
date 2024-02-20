@@ -2,7 +2,7 @@
 <!--                   Contact                    -->
 <!-- ============================================ -->
 
-<section id="contact-1699">
+<section id="contact">
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">About Us</span>
@@ -68,12 +68,12 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #contact-1699 {
+  #contact {
     padding: var(--sectionPadding);
     position: relative;
     z-index: 1;
   }
-  #contact-1699 .cs-container {
+  #contact .cs-container {
     width: 100%;
     /* changes to 1280px at desktop */
     max-width: 36.5rem;
@@ -86,7 +86,7 @@
     gap: clamp(3rem, 10vw, 8rem);
     position: relative;
   }
-  #contact-1699 .cs-content {
+  #contact .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: left;
     width: 100%;
@@ -95,38 +95,38 @@
     /* centers content horizontally, set to flex-start to left align */
     align-items: flex-start;
   }
-  #contact-1699 .cs-title {
+  #contact .cs-title {
     max-width: 23ch;
     margin: 0 0 1rem 0;
   }
-  #contact-1699 .cs-topper {
+  #contact .cs-topper {
     color: var(--secondary);
   }
-  #contact-1699 .cs-author {
+  #contact .cs-author {
     margin-top: 2.5rem;
     display: flex;
     align-items: center;
     gap: 1rem;
   }
-  #contact-1699 .cs-profile {
+  #contact .cs-profile {
     width: 3.25rem;
     height: 3.25rem;
   }
-  #contact-1699 .cs-profile img {
+  #contact .cs-profile img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
   }
-  #contact-1699 .cs-flex-group {
+  #contact .cs-flex-group {
     display: flex;
     flex-direction: column;
   }
-  #contact-1699 .cs-signature {
+  #contact .cs-signature {
     width: auto;
     height: 2.6875rem;
   }
-  #contact-1699 .cs-form {
+  #contact .cs-form {
     width: 100%;
     max-width: 39.5rem;
     /* prevents flexbox from affecting height and width */
@@ -143,11 +143,11 @@
     /* prevents flexbox from squishing it */
     flex: none;
   }
-  #contact-1699 .cs-form .cs-title {
+  #contact .cs-form .cs-title {
     /* 24px - 48px */
     margin: 0 0 clamp(1.5rem, 4vw, 3rem) 0;
   }
-  #contact-1699 .cs-label {
+  #contact .cs-label {
     font-size: 1rem;
     width: 100%;
     color: var(--headerColor);
@@ -157,7 +157,7 @@
     grid-column: span 12;
     gap: 0.25rem;
   }
-  #contact-1699 .cs-input {
+  #contact .cs-input {
     font-size: 1rem;
     width: 100%;
     height: 3.5rem;
@@ -169,18 +169,18 @@
     background-color: #fff;
     border: none;
   }
-  #contact-1699 .cs-input::placeholder {
+  #contact .cs-input::placeholder {
     color: #767676;
     opacity: 0.6;
   }
-  #contact-1699 .cs-textarea {
+  #contact .cs-textarea {
     font-family: inherit;
     min-height: 7.5rem;
     /* 16px - 28px */
     margin: 0 0 clamp(1rem, 3vw, 1.75rem) 0;
     padding-top: 1.5rem;
   }
-  #contact-1699 .cs-button-solid {
+  #contact .cs-button-solid {
     font-size: 1rem;
     font-weight: 700;
     /* 46px - 56px */
@@ -201,7 +201,7 @@
     overflow: hidden;
     transition: color 0.3s;
   }
-  #contact-1699 .cs-button-solid:before {
+  #contact .cs-button-solid:before {
     content: "";
     width: 0%;
     height: 100%;
@@ -213,20 +213,20 @@
     z-index: -1;
     transition: width 0.3s;
   }
-  #contact-1699 .cs-button-solid:hover {
+  #contact .cs-button-solid:hover {
     color: #fff;
   }
-  #contact-1699 .cs-button-solid:hover:before {
+  #contact .cs-button-solid:hover:before {
     width: 100%;
   }
-  #contact-1699 .cs-submit {
+  #contact .cs-submit {
     width: 100%;
     min-width: 17.6875rem;
   }
-  #contact-1699 .cs-submit:hover {
+  #contact .cs-submit:hover {
     cursor: pointer;
   }
-  #contact-1699 .cs-background {
+  #contact .cs-background {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -234,7 +234,7 @@
     left: 0;
     z-index: -1;
   }
-  #contact-1699 .cs-background::before {
+  #contact .cs-background::before {
     content: "";
     width: 100%;
     height: 100%;
@@ -242,7 +242,7 @@
     opacity: 0.9;
     position: absolute;
   }
-  #contact-1699 .cs-background img {
+  #contact .cs-background img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -250,16 +250,16 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #contact-1699 .cs-container {
+  #contact .cs-container {
     max-width: 80rem;
     flex-direction: row;
     justify-content: space-between;
   }
-  #contact-1699 .cs-form {
+  #contact .cs-form {
     width: 45vw;
     order: -1;
   }
-  #contact-1699 .cs-submit {
+  #contact .cs-submit {
     width: auto;
   }
 }
