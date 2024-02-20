@@ -2,13 +2,13 @@
 <!--                 Why Choose                   -->
 <!-- ============================================ -->
 
-<section id="why-choose-12">
+<section id="whyus">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Experienced</span>
-            <h2 class="cs-title">Why Choose Us?</h2>
+            <span class="cs-topper">Doświadczenie, które się spłaca</span>
+            <h2 class="cs-title">Pasjonaci nowoczesnych metodyk nauczania</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam earum rerum sunt officia quas adipisci. Nulla, dolor dignissimos qui laboriosam, asperiores aliquam soluta voluptatum, dolorem dolores minima delectus quas nam?
+                Nasz zespół zbudowany jest wyłącznie z pasjonatów nauczania języków obcych. Wiemy czego potrzebujesz żeby postawić kolejny krok w swoim rozwoju językowym <span class="bolded">i jesteśmy tu po to żeby Ci pomóc</span>.
             </p>
         </div>
         <ul class="cs-card-group">
@@ -16,31 +16,31 @@
                 <picture class="cs-picture">
                     <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/sheild.svg" alt="heart icon" width="42" height="42" aria-hidden="true">
                 </picture>
-                <h3 class="cs-h3">Experienced Staff</h3>
+                <h3 class="cs-h3">Praktyczne doświadczenie</h3>
                 <p class="cs-item-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit. 
+                    Każdy z naszych nauczycieli mieszkał za granicą lub pracował w międzynarodowym środowisku. Wiemy jak opracować materiał dydaktyczny, żeby otworzyć te drzwi również dla Ciebie
                 </p>
             </li>
             <li class="cs-item">
                 <picture class="cs-picture">
                     <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/toolbox.svg" alt="toolbox icon" width="42" height="42" aria-hidden="true">
                 </picture>
-                <h3 class="cs-h3">Own Our Equipment</h3>
+                <h3 class="cs-h3">Elastyczność dla ucznia</h3>
                 <p class="cs-item-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit. 
+                    Naszą szeroką ofertę przygotowaliśmy w taki sposób, żeby każdy znalazł odpowiedni dla siebie sposób nauki. Zajęcia online w nowoczesnej formule prowadzimy równie skutecznie co tradycyjne zajęcia stacjonarne
                 </p>
             </li>
             <li class="cs-item">
                 <picture class="cs-picture">
                     <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/ribbon.svg" alt="ribbon icon" width="32" height="42" aria-hidden="true">
                 </picture>
-                <h3 class="cs-h3">Licensed & Insured</h3>
+                <h3 class="cs-h3">Certyfikowani lektorzy</h3>
                 <p class="cs-item-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit. 
+                    Dbamy o stały rozwój naszej kadry, dlatego regularnie uczestniczymy w szkoleniach dla nauczycieli i zdobywamy kolejne międzynarodowe dyplomy, które potwierdzają nasze przygotowanie
                 </p>
             </li>
         </ul>
-        <a href="" class="cs-button-solid">Get Free Quote</a>
+        <a href="#contact" class="cs-button-solid">Rozpocznij naukę</a>
     </div>
 </section>
                                 
@@ -51,10 +51,14 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #why-choose-12 {
+    .bolded {
+        font-weight: 700;
+
+    }
+    #whyus {
         padding: var(--sectionPadding);
     }
-    #why-choose-12 .cs-container {
+    #whyus .cs-container {
         width: 100%;
         max-width: 80rem;
         margin: auto;
@@ -64,7 +68,7 @@
         /* 48px - 64px */
         gap: clamp(3rem, 6vw, 4rem);
     }
-    #why-choose-12 .cs-content {
+    #whyus .cs-content {
         /* set text align to left if content needs to be left aligned */
         text-align: center;
         width: 100%;
@@ -73,7 +77,7 @@
         /* centers content horizontally, set to flex-start to left align */
         align-items: center;
     }
-    #why-choose-12 .cs-topper {
+    #whyus .cs-topper {
         font-size: var(--topperFontSize);
         line-height: 1.2em;
         text-transform: uppercase;
@@ -84,7 +88,7 @@
         margin-bottom: 0.25rem;
         display: block;
     }
-    #why-choose-12 .cs-title {
+    #whyus .cs-title {
         font-size: var(--headerFontSize);
         font-weight: 900;
         line-height: 1.2em;
@@ -94,7 +98,7 @@
         color: var(--headerColor);
         position: relative;
     }
-    #why-choose-12 .cs-text {
+    #whyus .cs-text {
         font-size: var(--bodyFontSize);
         line-height: 1.5em;
         text-align: inherit;
@@ -103,7 +107,7 @@
         margin: 0;
         color: var(--bodyTextColor);
     }
-    #why-choose-12 .cs-card-group {
+    #whyus .cs-card-group {
         width: 100%;
         margin: 0;
         padding: 0;
@@ -113,7 +117,7 @@
         flex-direction: column;
         gap: 3.75rem;
     }
-    #why-choose-12 .cs-item {
+    #whyus .cs-item {
         text-align: center;
         list-style: none;
         width: 100%;
@@ -121,7 +125,7 @@
         margin: 0;
         padding: 0;
     }
-    #why-choose-12 .cs-picture {
+    #whyus .cs-picture {
         /* 68px - 88px */
         width: clamp(4.25rem, 7vw, 5.5rem);
         height: clamp(4.25rem, 7vw, 5.5rem);
@@ -133,12 +137,12 @@
         justify-content: center;
         align-items: center;
     }
-    #why-choose-12 .cs-picture img {
+    #whyus .cs-picture img {
         width: auto;
         height: 2.625rem;
         display: block;
     }
-    #why-choose-12 .cs-h3 {
+    #whyus .cs-h3 {
         font-size: 1.25rem;
         line-height: 1.2em;
         text-align: inherit;
@@ -148,14 +152,14 @@
         margin-bottom: 0.5rem;
         color: var(--headerColor);
     }
-    #why-choose-12 .cs-item-text {
+    #whyus .cs-item-text {
         font-size: 1rem;
         text-align: inherit;
         line-height: 1.5em;
         margin: 0;
         color: var(--bodyTextColor);
     }
-    #why-choose-12 .cs-button-solid {
+    #whyus .cs-button-solid {
         font-size: 1rem;
         /* 46px - 56px */
         line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -174,7 +178,7 @@
         /* prevents padding from adding to the width */
         box-sizing: border-box;
     }
-    #why-choose-12 .cs-button-solid:before {
+    #whyus .cs-button-solid:before {
         content: "";
         position: absolute;
         height: 100%;
@@ -187,13 +191,13 @@
         border-radius: 0.25rem;
         transition: width 0.3s;
     }
-    #why-choose-12 .cs-button-solid:hover:before {
+    #whyus .cs-button-solid:hover:before {
         width: 100%;
     }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #why-choose-12 .cs-card-group {
+    #whyus .cs-card-group {
         flex-direction: row;
         justify-content: space-between;
     }
